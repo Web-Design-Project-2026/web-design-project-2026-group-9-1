@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.25 63.42">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-linejoin: bevel;
+        stroke-width: 6px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-4 {
+        fill: #b9bee0;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g>
+      <g>
+        <rect class="cls-4" x="4.5" y="4.5" width="57" height="57"/>
+        <rect class="cls-3" x="4.5" y="4.5" width="57" height="57"/>
+        <circle cx="21.03" cy="22.89" r="6.8"/>
+        <path d="M29.83,60c0-7.76.47-17.51-1.98-23-2.1-4.7-4.45-6.27-7.92-6.27s-5.94,1.84-7.92,6.27c-2.45,5.49-1.98,15.24-1.98,23h19.79Z"/>
+        <circle cx="45.02" cy="22.89" r="6.8"/>
+        <path d="M55.96,60c0-7.76.47-17.51-1.98-23-2.1-4.7-4.45-6.27-7.92-6.27s-5.94,1.84-7.92,6.27c-2.45,5.49-1.98,15.24-1.98,23h19.79Z"/>
+        <path class="cls-2" d="M22.02,34.91l10.98,12.02,10.98-12.02"/>
+      </g>
+      <rect class="cls-1" x="1.25" y=".42" width="63" height="63"/>
+      <rect class="cls-1" width="63" height="63"/>
+    </g>
+  </g>
+</svg>
