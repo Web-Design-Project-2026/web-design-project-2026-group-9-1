@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: #f5f5f5;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 50px;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+.image-button {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+/* Home button */
+.btn-home {
+  background-image: url("../images/navicons/home\ icon.svg");
+}
+.btn-home:hover {
+  background-image: url("../images/navicons/home\ icon\ hovered.svg");
+}
+
+/* Search button */
+.btn-search {
+  background-image: url("");
+}
+.btn-search:hover {
+  background-image: url("");
+}
+
+/* Add post button */
+.btn-add {
+  background-image: url("../images/navicons/add\ icon.svg");
+}
+.btn-add:hover {
+  background-image: url("../images/navicons/add\ icon\ hovered.svg");
+}
+
+/* Messages button */
+.btn-messages {
+  background-image: url(../images/navicons/message\ icon.svg);
+}
+.btn-messages:hover {
+  background-image: url("../images/navicons/message\ icon\ hovered.svg");
+}
+
+/* Profile button */
+.btn-profile {
+  background-image: url("../images/navicons/prodile\ icon.svg");
+}
+.btn-profile:hover {
+  background-image: url("../images/navicons/profile\ icon\ hovered.svg");
+}
+
+/* Main */
+.main-content {
+  flex: 1;
+  padding: 20px 40px;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Search */
+.search-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  border: 2px dashed #ccc;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+/* Categories */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  justify-items: center;
+}
+
+.category {
+  text-align: center;
+  width: 80px;
+}
+
+.category-button {
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+/* clothes category icon */
+.btn-clothes {
+  background-image: url("../images/categories/ovves\ icon.svg");
+}
+.btn-clothes:hover {
+  background-image: url("../images/categories/ovves\ icon\ hover.svg");
+}
+
+/* book category icon */
+.btn-books {
+  background-image: url("../images/categories/books\ icon.svg");
+}
+.btn-books:hover {
+  background-image: url("../images/categories/books\ icon\ hover.svg");
+}
+
+/* patches category icon */
+.btn-patches {
+  background-image: url("../images/categories/patches\ icon.svg");
+}
+.btn-patches:hover {
+  background-image: url("../images/categories/patches\ icon\ hover.svg");
+}
+
+/* transport category icon */
+.btn-transport {
+  background-image: url("../images/categories/transport\ icon.svg");
+}
+.btn-transport:hover {
+  background-image: url("../images/categories/transport\ icon\ hover.svg");
+}
+
+/* electronics category icon */
+.btn-electronics {
+  background-image: url("../images/categories/electronics\ icon.svg");
+}
+.btn-electronics:hover {
+  background-image: url("../images/categories/electronics\ icon\ hover.svg");
+}
+
+/* services category icon */
+.btn-services {
+  background-image: url("../images/categories/services\ icon.svg");
+}
+.btn-services:hover {
+  background-image: url("../images/categories/services\ icon\ hover.svg");
+}
+
+/* apartaments category icon */
+.btn-apartaments {
+  background-image: url("../images/categories/apartaments\ icon.svg");
+}
+.btn-apartaments:hover {
+  background-image: url("../images/categories/apartaments\ icon\ hover.svg");
+}
+
+/* furniture category icon */
+.btn-furniture {
+  background-image: url("../images/categories/Furniture\ icon.svg");
+}
+.btn-furniture:hover {
+  background-image: url("../images/categories/furniture\ icon\ hover.svg");
+}
+
+/* Title */
+.section-title {
+  margin-bottom: 20px;
+}
+
+/* Grid */
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* Post */
+.item-card {
+  background: transparent;
+}
+
+/* IAMGES NEEDS TO BE CHANGED ENTIRELY */
+/* Images */
+.images {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 5px;
+}
+
+.images .big {
+  height: 1fr;
+  background: #ddd;
+  border: 3px solid black;
+}
+
+.images .small {
+  height: 70px;
+  background: #ddd;
+  border: 3px solid black;
+}
+
+/* Text */
+.user {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.item-post h3 {
+  margin: 5px 0;
+}
+
+/* # */
+.hastages span {
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+/* Price */
+.price {
+  margin: 5px 0;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* buy icon button */
+.buy-button {
+  width: 60px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.buy-btn {
+  background-image: url("../images/buttons/Buy\ button.svg");
+}
+.buy-btn:hover {
+  background-image: url("../images/buttons/Buy\ button\ hover.svg");
+}
+
+.post-button {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+/* save icon button */
+.save-button {
+  background-image: url("../images/buttons/Heart\ icon\ default.svg");
+}
+.save-button:hover {
+  background-image: url("../images/buttons/Heart\ icon\ hovered.svg");
+}
+.save-button:active {
+  background-image: url("../images/buttons/Heart\ icon\ saved.svg");
+}
+
+/* share icon button */
+.share-button {
+  background-image: url("../images/buttons/Share\ icon.svg");
+}
+.share-button:hover {
+  background-image: url("../images/buttons/Share\ icon\ hover.svg");
+}
