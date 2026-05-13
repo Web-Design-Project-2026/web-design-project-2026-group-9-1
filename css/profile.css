@@ -1,0 +1,47 @@
+/*profile Info*/
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+main {
+  grid-area: main;
+  margin-top: 20px;
+}
+.profile-info {
+  display: flex;
+  margin-left: 20%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.data {
+  display: flexbox;
+  list-style: none;
+}
+#avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.basics {
+  margin-left: 10%;
+}
+.programe {
+  background-color: darkgoldenrod;
+  color: black;
+  font-size: 10pt;
+  height: 20px;
+}
+.sections {
+  display: flex;
+  list-style: none;
+  margin-left: 20px;
+  justify-content: space-evenly;
+  border-style:groove;
+  border-color: black;
+}
+.heart{
+    width: 10%;
+}
