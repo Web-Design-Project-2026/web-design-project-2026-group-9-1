@@ -356,3 +356,16 @@ span p{
 .share-button:hover {
   background-image: url("../images/buttons/Share\ icon\ hover.svg");
 }
+
+@media screen and (min-width: 1000px) {
+  .sidebar{
+    height: 100%;
+    width: 50px;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .main-content {
+    margin-left: 50px;
+  }
+}
