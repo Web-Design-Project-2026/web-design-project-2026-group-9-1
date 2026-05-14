@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap');
+
+body{
+    font-family: "Momo Trust Sans", sans-serif;
+}
+
+h1{
+    font-family: "Momo Trust Sans", sans-serif;
+    font-size: 32px;
+    margin: 0;
+}
+
+h2{
+    font-family: "Momo Trust Sans", sans-serif;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 500;
+}
+
+p{
+    font-family: "Momo Trust Sans", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+p.captions{
+    font-size: 14px;
+}
+
+
+
+button{
+    font-family: "Momo Trust Sans", sans-serif;
+}

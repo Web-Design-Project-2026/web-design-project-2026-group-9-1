@@ -1,3 +1,11 @@
 [
-    {"id": 0, "images": ["", "", ""], "student_name":"@student", "item-title":"Item Heading", "hastages":["#graphic_design", "#books"], "price":"500 points"}
+    {"id": 0, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"},
+    {"id": 1, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"},
+    {"id": 2, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"},
+    {"id": 3, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"},
+    {"id": 4, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"},
+    {"id": 5, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"},
+    {"id": 6, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"},
+    {"id": 7, "images": ["", "", ""], "student_profile_pic": "images/profiles/placeholder1.png", "post_username":"student", "item_title":"Item Heading", "hashtags":[["#graphic-design", "yellow_hashtag"], ["#books", "general_hashtag"]], "price":"500"}
 ]
+
