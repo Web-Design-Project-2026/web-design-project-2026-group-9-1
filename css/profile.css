@@ -32,7 +32,7 @@ main {
 .programe {
   background-color: darkgoldenrod;
   color: black;
-  font-size:smaller;
+
   height: 30px;
 }
 .sections {
@@ -95,6 +95,9 @@ p{
 
   width: 5%;
 }
-.buy {
-  margin: 0;
+.save{
+  width: 3%;
+}
+.share{
+  width: 3%;
 }
