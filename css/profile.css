@@ -11,6 +11,7 @@ main {
   margin-top: 20px;
 }
 .profile-info {
+  margin-top: 20px;
   display: flex;
   margin-left: 20%;
   align-items: center;
@@ -31,17 +32,69 @@ main {
 .programe {
   background-color: darkgoldenrod;
   color: black;
-  font-size: 10pt;
-  height: 20px;
+  font-size:smaller;
+  height: 30px;
 }
 .sections {
   display: flex;
   list-style: none;
   margin-left: 20px;
   justify-content: space-evenly;
-  border-style:groove;
+  border-style: groove;
   border-color: black;
 }
-.heart{
-    width: 10%;
+.up{
+  display: flex;
+  margin-left: 20%;
+}
+.buttons{
+  justify-content: end;
+}
+.heart {
+  width: 10%;
+}
+
+.collage {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.big-picture {
+  width: 15%;
+}
+.big-picture img {
+  width: 95%;
+  margin-left: 25%;
+}
+
+.secondary-pictures {
+  display: flex;
+  flex-direction: column;
+  width: 7%;
+  gap: 5px;
+}
+.post-info {
+  margin-left: 5%;
+}
+h1 {
+  margin: 0%;
+  font-size: 12pt;
+}
+.hashtags {
+  display: inline-block;
+  border-color: darkgoldenrod;
+  border-style: groove;
+  margin: 0%;
+  font-size:smaller;
+}
+p{
+  margin:0%;
+  font-size: small;
+}
+.buy {
+
+  width: 5%;
+}
+.buy {
+  margin: 0;
 }
