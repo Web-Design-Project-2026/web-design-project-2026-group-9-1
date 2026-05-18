@@ -1,0 +1,213 @@
+@media screen and (min-width: 1000px) {
+  .sidebar{
+    height: 100%;
+    width: 50px;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .main-content {
+    margin-left: 50px;
+  }
+}
+
+/* Home button */
+.btn-home {
+  background-image: url("../images/navicons/home\ icon.svg");
+}
+.btn-home:hover {
+  background-image: url("../images/navicons/home\ icon\ hovered.svg");
+}
+
+/* Search button */
+.btn-search {
+  /* Temporary placeholder */
+  background-color: black;
+  /* background-image: url(""); */ 
+}
+.btn-search:hover {
+  /* Temporary placeholder */
+  background-color: black;
+  /* background-image: url(""); */
+}
+
+/* Add post button */
+.btn-add {
+  background-image: url("../images/navicons/add\ icon.svg");
+}
+.btn-add:hover {
+  background-image: url("../images/navicons/add\ icon\ hovered.svg");
+}
+
+/* Messages button */
+.btn-messages {
+  background-image: url(../images/navicons/message\ icon.svg);
+}
+.btn-messages:hover {
+  background-image: url("../images/navicons/message\ icon\ hovered.svg");
+}
+
+/* Profile button */
+.btn-profile {
+  background-image: url("../images/navicons/prodile\ icon.svg");
+}
+.btn-profile:hover {
+  background-image: url("../images/navicons/profile\ icon\ hovered.svg");
+}
+
+/* Main */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 2px dashed #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.search-container input {
+  flex: 1;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Search History */
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.history-item i {
+  font-size: 14px;
+  color: #666;
+}
+
+.history-item:hover {
+  background: #e0e0e0;
+}
+
+.section-title {
+  margin-top: 20px;
+}
+
+/* Categories */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  justify-items: center;
+}
+
+.category {
+  text-align: center;
+  width: 80px;
+}
+
+.category-button {
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+/* clothes category icon */
+.btn-clothes {
+  background-image: url("../images/categories/ovves\ icon.svg");
+}
+.btn-clothes:hover {
+  background-image: url("../images/categories/ovves\ icon\ hover.svg");
+}
+
+/* book category icon */
+.btn-books {
+  background-image: url("../images/categories/books\ icon.svg");
+}
+.btn-books:hover {
+  background-image: url("../images/categories/books\ icon\ hover.svg");
+}
+
+/* patches category icon */
+.btn-patches {
+  background-image: url("../images/categories/patches\ icon.svg");
+}
+.btn-patches:hover {
+  background-image: url("../images/categories/patches\ icon\ hover.svg");
+}
+
+/* transport category icon */
+.btn-transport {
+  background-image: url("../images/categories/transport\ icon.svg");
+}
+.btn-transport:hover {
+  background-image: url("../images/categories/transport\ icon\ hover.svg");
+}
+
+/* electronics category icon */
+.btn-electronics {
+  background-image: url("../images/categories/electronics\ icon.svg");
+}
+.btn-electronics:hover {
+  background-image: url("../images/categories/electronics\ icon\ hover.svg");
+}
+
+/* services category icon */
+.btn-services {
+  background-image: url("../images/categories/services\ icon.svg");
+}
+.btn-services:hover {
+  background-image: url("../images/categories/services\ icon\ hover.svg");
+}
+
+/* apartaments category icon */
+.btn-apartaments {
+  background-image: url("../images/categories/apartaments\ icon.svg");
+}
+.btn-apartaments:hover {
+  background-image: url("../images/categories/apartaments\ icon\ hover.svg");
+}
+
+/* furniture category icon */
+.btn-furniture {
+  background-image: url("../images/categories/Furniture\ icon.svg");
+}
+.btn-furniture:hover {
+  background-image: url("../images/categories/furniture\ icon\ hover.svg");
+}
