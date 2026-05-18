@@ -10,6 +10,11 @@ button {
   border: none;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 /* Sidebar */
 .sidebar {
   position: fixed;
@@ -25,6 +30,7 @@ button {
   box-sizing: border-box;
   padding-left: 5%;
   padding-right: 5%;
+  z-index: 999;
 }
 
 .image-button {
@@ -343,11 +349,12 @@ button {
     width: 50px;
     flex-direction: column;
     padding: 20px 0;
-  }
+}
+}
 
-  .main-content {
-    padding-left: 70px;
-  }
+.main-content {
+  padding-left: 70px;
+}
 body {
   margin: 0;
   display: flex;
