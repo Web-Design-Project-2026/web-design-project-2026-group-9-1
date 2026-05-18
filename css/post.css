@@ -1,0 +1,29 @@
+#title {
+  margin-left: 40%;
+  font-size:larger;
+  width: 100%;
+}
+
+.collage {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.big-picture{
+    width: 100%;
+}
+.big-picture img{
+  width: 70%;
+  margin: 20%;
+}
+.secondary-pictures img{
+    display: flex;
+    flex-direction: column;
+  width: 50%;
+  margin:20%;
+}
+
+.save-button{
+background-color: blueviolet;
+width: 5%;
+}
