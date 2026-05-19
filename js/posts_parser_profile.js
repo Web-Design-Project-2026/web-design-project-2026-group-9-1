@@ -18,6 +18,7 @@ function spawnPosts(data) {
         const postCard = document.createElement("a");
         postCard.classList.add("post_container");
         postCard.href = "post.html";
+        postCard.id = data[i].id;
         postCard.innerHTML = `
         <div class="post_images">
             <div class="image-cover">
@@ -39,6 +40,12 @@ function spawnPosts(data) {
         </div>
         <p class="post_price">${data[i].price} points</p>
         `;
+
+        postCard.addEventListener("click", () => {
+            localStorage.setItem("clicked_post_id", data[i].id);
+            window.location.href = "post.html";
+        });
+
         items_grid.appendChild(postCard);
     }
 }

@@ -284,14 +284,6 @@ span p{
   display: inline-block;
 }
 
-.yellow_hashtag{
-  border-color: #E1AD03;
-}
-
-.general_hashtag{
-  border-color: black;
-}
-
 /* Price */
 .post_price {
   margin: 5px 0;
