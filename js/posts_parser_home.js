@@ -15,11 +15,12 @@ fetch("product-list.json")
 function spawnPosts(data) {
     items_grid.innerHTML = "";
     for (let i = 0; i < data.length; i++) {
-        const postCard = document.createElement("a");
+        const postCard = document.createElement("div");
         postCard.classList.add("post_container");
         postCard.href = "post.html";
+        postCard.id = data[i].id;
         postCard.innerHTML = `
-        <a class="post_images" href="post.html">
+        <a class="post_images">
             <div class="image-cover">
                 <div class="image-product" style="background-image: url('${data[i].images[0]}');"></div>
                 <div class="black_shadow"></div>
@@ -50,6 +51,12 @@ function spawnPosts(data) {
             </div>
         </div>
         `;
+        
+        postCard.addEventListener("click", () => {
+            localStorage.setItem("clicked_post_id", data[i].id);
+            window.location.href = "post.html";
+        });
+
         items_grid.appendChild(postCard);
     }
 }

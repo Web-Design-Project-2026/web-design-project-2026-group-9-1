@@ -349,7 +349,7 @@ a{
     width: 50px;
     flex-direction: column;
     padding: 20px 0;
-}
+  }
 }
 
 .main-content {
@@ -396,6 +396,21 @@ button {
   transition: transform 0.15s ease;
 }
 
+.yellow_hashtag{
+  border-color: #E1AD03;
+}
+
+.blue_hashtag{
+  border-color: #2A78D1;
+}
+
+.green_hashtag{
+  border-color: #00d524;
+}
+
+.general_hashtag{
+  border-color: black;
+}
 
 
 
