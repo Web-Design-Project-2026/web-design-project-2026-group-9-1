@@ -17,7 +17,7 @@ main {
   display: flex;
   margin-left: 20%;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:flex-start;
 }
 .data {
   display: flexbox;
@@ -47,8 +47,11 @@ main {
 }
 .up{
   display: flex;
-  margin-left: 20%;
+  margin-left: 10%;
+  justify-content: space-between;
 }
+
+
 .buttons{
   justify-content: end;
 }
@@ -104,6 +107,9 @@ h1 {
   width: 3%;
 } */
 
+header{
+  grid-area: header;
+}
 .items-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));

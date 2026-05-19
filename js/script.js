@@ -1,6 +1,4 @@
-
-
-let favArray 
+/*let favArray 
 if(localStorage.favorites){
 favArray=JSON.parse(localStorage.favorites);
 
@@ -39,4 +37,4 @@ function addFavorite(event){
 
     favArray.push(favoritePost);
     localStorage.favorites=JSON.stringify(favArray)
-}
+}*/
