@@ -9,15 +9,15 @@ body {
 main {
   grid-area: main;
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 .profile-info {
   margin-top: 20px;
   display: flex;
-  margin-left: 20%;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 .data {
   display: flexbox;
@@ -29,7 +29,9 @@ main {
   border-radius: 50%;
 }
 .basics {
-  margin-left: 10%;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
 }
 .programe {
   background-color: darkgoldenrod;
@@ -37,26 +39,35 @@ main {
 
   height: 30px;
 }
+
+.sections-box{
+  display: flex;
+  justify-content: center;
+}
+
 .sections {
   display: flex;
   list-style: none;
-  margin-left: 20px;
+  padding: 10px 0;
   justify-content: space-evenly;
-  border-style: groove;
-  border-color: black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .up{
   display: flex;
-  margin-left: 10%;
+  width: 90%;
   justify-content: space-between;
+  padding: 0 5%;
 }
 
 
 .buttons{
-  justify-content: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .heart {
-  width: 10%;
+  width: 30px;
 }
 
 .collage {
@@ -199,12 +210,11 @@ header{
   margin-bottom: 10px;
 }
 
-.hashtags span {
+span {
   border-width: 1.5px;
   border-style: solid;
   padding: 5px 10px;
   border-radius: 20px;
-  font-size: 12px;
   margin-right: 5px;
 }
 
@@ -283,4 +293,25 @@ span p{
 }
 .share-button:hover {
   background-image: url("../images/buttons/Share\ icon\ hover.svg");
+}
+
+@media screen and (min-width: 1000px) {
+  header{
+    margin-left: 50px;
+  }
+
+  main{
+    margin-left: 70px;
+  }
+
+  .profile-info{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .basics {
+    margin-left: 20px;
+    text-align: left;
+  }
 }
