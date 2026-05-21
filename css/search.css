@@ -212,32 +212,126 @@
   background-image: url("../images/categories/furniture\ icon\ hover.svg");
 }
 
-.hashtags{
-  margin-bottom: 10px;
+.hashtags_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.hashtags span {
-  border-width: 1.5px;
-  border-style: solid;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 12px;
-  margin-right: 5px;
+.hashtags_container button:hover p {
+  color: white;
 }
 
-span p{
-  display: inline-block;
+.hashtags {
+  margin: 0;
 }
 
-.yellow_hashtag{
-  border-color: #E1AD03;
+.hashtags button p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  transition: color 0.25s ease;
 }
 
-.general_hashtag{
-  border-color: black;
+.engineer_hashtag {
+  border: 2px solid #E1AD03;
+  border-radius: 999px;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
 }
 
-.hastage_container{
-    display: grid;
-    
+.communication_hashtag {
+  border: 2px solid #0046c0;
+  border-radius: 999px;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.education_hashtag {
+  border: 2px solid #e10321;
+  border-radius: 999px;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.business_hashtag {
+  border: 2px solid rgb(0, 134, 13);
+  border-radius: 999px;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.medicine_hashtag {
+  border: 2px solid #7e7e7e;
+  border-radius: 999px;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.general_hashtag {
+  border: 2px solid black;
+  border-radius: 999px;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.engineer_hashtag:hover {
+  background-color: #E1AD03;
+}
+
+.communication_hashtag:hover {
+  background-color: #0046c0;
+}
+
+.education_hashtag:hover {
+  background-color: #e10321;
+}
+
+.business_hashtag:hover {
+  background-color: rgb(0, 134, 13);
+}
+
+.medicine_hashtag:hover {
+  background-color: #7e7e7e;
+}
+
+.general_hashtag:hover {
+  background-color: black;
 }
