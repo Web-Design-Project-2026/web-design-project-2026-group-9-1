@@ -55,14 +55,12 @@ a{
 
 /* Search button */
 .btn-search {
-  /* Temporary placeholder */
-  background-color: black;
-  /* background-image: url(""); */ 
+  background-image: url("../images/navicons/search.svg");
+  transition: transform 0.15s ease;
 }
 .btn-search:hover {
-  /* Temporary placeholder */
-  background-color: black;
-  /* background-image: url(""); */
+  background-image: url("../images/navicons/Search\ hovered.svg");
+  transition: transform 0.15s ease;
 }
 
 /* Add post button */
@@ -78,7 +76,7 @@ a{
   background-image: url(../images/navicons/message\ icon.svg);
 }
 .btn-messages:hover {
-  background-image: url("../images/navicons/message\ icon\ hovered.svg");
+  background-image: url("../images/navicons/message\ icon\ pressed.svg");
 }
 
 /* Profile button */
@@ -486,3 +484,39 @@ button {
     margin-left: 50px;
   }
 }
+
+.default-icon-home {
+    background-image: url("../images/navicons/home\ icon\ pressed.svg");
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.default-icon-add {
+    background-image: url("../images/navicons/add\ icon\ pressed.svg");
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.default-icon-messages {
+    background-image: url("../images/navicons/messages\ icon\ pressed.svg");
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.default-icon-profile {
+    background-image: url("../images/navicons/profile\ icon\ pressed.svg");
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.default-icon-search {
+    background-image: url("../images/navicons/search\ pressed.svg");
+    size: auto;
+    width: 29px;
+    height: 27.5px;
+}
+

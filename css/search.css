@@ -11,50 +11,6 @@
   }
 }
 
-/* Home button */
-.btn-home {
-  background-image: url("../images/navicons/home\ icon.svg");
-}
-.btn-home:hover {
-  background-image: url("../images/navicons/home\ icon\ hovered.svg");
-}
-
-/* Search button */
-.btn-search {
-  /* Temporary placeholder */
-  background-color: black;
-  /* background-image: url(""); */ 
-}
-.btn-search:hover {
-  /* Temporary placeholder */
-  background-color: black;
-  /* background-image: url(""); */
-}
-
-/* Add post button */
-.btn-add {
-  background-image: url("../images/navicons/add\ icon.svg");
-}
-.btn-add:hover {
-  background-image: url("../images/navicons/add\ icon\ hovered.svg");
-}
-
-/* Messages button */
-.btn-messages {
-  background-image: url(../images/navicons/message\ icon.svg);
-}
-.btn-messages:hover {
-  background-image: url("../images/navicons/message\ icon\ hovered.svg");
-}
-
-/* Profile button */
-.btn-profile {
-  background-image: url("../images/navicons/prodile\ icon.svg");
-}
-.btn-profile:hover {
-  background-image: url("../images/navicons/profile\ icon\ hovered.svg");
-}
-
 /* Main */
 .main-content {
   flex: 1;
