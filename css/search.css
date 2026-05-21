@@ -1,0 +1,110 @@
+/* Search-specific styles */
+
+.logo{
+  width: 80px;
+  padding-left: 5px;
+}
+
+/* Search History */
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.history-item i {
+  font-size: 14px;
+  color: #666;
+}
+
+.history-item:hover {
+  background: #e0e0e0;
+}
+
+.section-title {
+  margin-top: 20px;
+}
+
+/* Search-specific hashtag overrides */
+.hashtags_container button:hover p {
+  color: white;
+}
+
+.hashtags {
+  margin: 0;
+}
+
+.hashtags button p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  transition: color 0.25s ease;
+}
+
+/* Search-specific hashtag padding and cursor overrides */
+.engineer_hashtag {
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.communication_hashtag {
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.education_hashtag {
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.business_hashtag {
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.medicine_hashtag {
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.general_hashtag {
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.engineer_hashtag:hover {
+  background-color: #E1AD03;
+}
+
+.communication_hashtag:hover {
+  background-color: #0046c0;
+}
+
+.education_hashtag:hover {
+  background-color: #e10321;
+}
+
+.business_hashtag:hover {
+  background-color: rgb(0, 134, 13);
+}
+
+.medicine_hashtag:hover {
+  background-color: #7e7e7e;
+}
+
+.general_hashtag:hover {
+  background-color: black;
+}
