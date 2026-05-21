@@ -26,6 +26,11 @@
   margin-bottom: 15px;
 }
 
+.logo{
+  width: 80px;
+  padding-left: 5px;
+}
+
 /* Search */
 .search-container {
   display: flex;
