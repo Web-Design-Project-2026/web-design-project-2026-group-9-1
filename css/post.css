@@ -27,6 +27,14 @@ main{
   align-items: flex-start;
 }
 
+.back-button{
+  width: 40px;
+}
+
+.back-button img{
+  width: 100%;
+}
+
 .post_images {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -63,6 +71,13 @@ main{
 .image-cover:hover .image-product {
   top: -5px;
   left: -5px;
+}
+
+.post_actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .black_shadow{

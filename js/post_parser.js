@@ -40,6 +40,14 @@ function spawnPosts(data) {
             ${post.hashtags ? post.hashtags.map(hashtag => `<span class="${hashtag[1]}"><p class="captions">${hashtag[0]}</p></span>`).join('\n            ') : ''}
         </div>
         <p class="post_price">${post.price} points</p>
+        <div class="post_actions">
+        <button class="buy-button buy-btn" aria-label="buy"></button>
+            <div class="post-buttons">
+                <button class="post-button save-button" aria-label="save"></button>
+                <button class="post-button share-button" aria-label="share"></button>
+            </div>
+            
+        </div>
         </div>
     `;
 }
