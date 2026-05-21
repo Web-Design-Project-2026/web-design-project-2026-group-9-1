@@ -1,5 +1,5 @@
 const items_grid = document.querySelector(".items-grid");
-const post_container = document.querySelector(".post_container");
+const posts_container = document.querySelector(".posts_container");
 
 
 
@@ -16,7 +16,7 @@ function spawnPosts(data) {
     items_grid.innerHTML = "";
     for (let i = 0; i < data.length; i++) {
         const postCard = document.createElement("div");
-        postCard.classList.add("post_container");
+        postCard.classList.add("posts_container");
         postCard.href = "post.html";
         postCard.id = data[i].id;
         postCard.innerHTML = `
@@ -49,7 +49,7 @@ function spawnPosts(data) {
                 <button class="post-button save-button"></button>
                 <button class="post-button share-button"></button>
             </div>
-        </div>
+        </a>
         `;
         
         postCard.addEventListener("click", () => {
