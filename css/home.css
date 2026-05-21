@@ -1,10 +1,4 @@
-/* Main */
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 16px;
-}
+/* Home-specific overrides */
 
 .logo{
   width: 80px;
@@ -13,146 +7,17 @@
 
 /* Topbar */
 .topbar {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
   align-items: center;
-}
-
-/* Search */
-.search-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  width: 100%;
-  border: 2px dashed #ccc;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.search-container input {
-  flex: 1;
-  box-sizing: border-box;
-  border: none;
-  background-color: transparent;
-  outline: none;
-}
-
-.search-icon {
-  width: 20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Categories */
-.categories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 10px;
-  justify-items: center;
-}
-
-.category {
-  text-align: center;
-  width: 80px;
-}
-
-.category-button {
-  width: 60px;
-  height: 60px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.25s ease;
-}
-
-/* clothes category icon */
-.btn-clothes {
-  background-image: url("../images/categories/ovves\ icon.svg");
-}
-.btn-clothes:hover {
-  background-image: url("../images/categories/ovves\ icon\ hover.svg");
-}
-
-/* book category icon */
-.btn-books {
-  background-image: url("../images/categories/books\ icon.svg");
-}
-.btn-books:hover {
-  background-image: url("../images/categories/books\ icon\ hover.svg");
-}
-
-/* patches category icon */
-.btn-patches {
-  background-image: url("../images/categories/patches\ icon.svg");
-}
-.btn-patches:hover {
-  background-image: url("../images/categories/patches\ icon\ hover.svg");
-}
-
-/* transport category icon */
-.btn-transport {
-  background-image: url("../images/categories/transport\ icon.svg");
-}
-.btn-transport:hover {
-  background-image: url("../images/categories/transport\ icon\ hover.svg");
-}
-
-/* electronics category icon */
-.btn-electronics {
-  background-image: url("../images/categories/electronics\ icon.svg");
-}
-.btn-electronics:hover {
-  background-image: url("../images/categories/electronics\ icon\ hover.svg");
-}
-
-/* services category icon */
-.btn-services {
-  background-image: url("../images/categories/services\ icon.svg");
-}
-.btn-services:hover {
-  background-image: url("../images/categories/services\ icon\ hover.svg");
-}
-
-/* apartaments category icon */
-.btn-apartaments {
-  background-image: url("../images/categories/apartaments\ icon.svg");
-}
-.btn-apartaments:hover {
-  background-image: url("../images/categories/apartaments\ icon\ hover.svg");
-}
-
-/* furniture category icon */
-.btn-furniture {
-  background-image: url("../images/categories/Furniture\ icon.svg");
-}
-.btn-furniture:hover {
-  background-image: url("../images/categories/furniture\ icon\ hover.svg");
 }
 
 /* Title */
 .section-title {
   margin-top: 32px;
-  margin-bottom: 20px;
 }
-
 
 /* Posts */
-
 .items-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
-  gap: 40px;
   margin-bottom: 70px;
-}
-
-.item-card {
-  background: transparent;
 }
 
 .post_images {
@@ -197,10 +62,8 @@
   background-color: rgb(0, 0, 0);
 }
 
-
 .post_images .image-cover:nth-child(1) {
   grid-row: 1/3;
-  
 }
 
 .student_profile_pic {
@@ -292,17 +155,4 @@
 }
 .share-button:hover {
   background-image: url("../images/buttons/Share\ icon\ hover.svg");
-}
-
-@media screen and (min-width: 1000px) {
-  .sidebar{
-    height: 100%;
-    width: 50px;
-    flex-direction: column;
-    padding: 20px 0;
-  }
-
-  .main-content {
-    margin-left: 50px;
-  }
 }

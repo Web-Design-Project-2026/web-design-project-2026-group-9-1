@@ -1,7 +1,4 @@
 const items_grid = document.querySelector(".items-grid");
-const post_container = document.querySelector(".post_container");
-
-
 
 
 fetch("product-list.json")
