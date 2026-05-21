@@ -20,7 +20,7 @@ function spawnPosts(data) {
         postCard.href = "post.html";
         postCard.id = data[i].id;
         postCard.innerHTML = `
-        <a class="post_images">
+        <a class="post_images" href="post.html">
             <div class="image-cover">
                 <div class="image-product" style="background-image: url('${data[i].images[0]}');"></div>
                 <div class="black_shadow"></div>
@@ -51,11 +51,6 @@ function spawnPosts(data) {
             </div>
         </a>
         `;
-        
-        postCard.addEventListener("click", () => {
-            localStorage.setItem("clicked_post_id", data[i].id);
-            window.location.href = "post.html";
-        });
 
         items_grid.appendChild(postCard);
     }

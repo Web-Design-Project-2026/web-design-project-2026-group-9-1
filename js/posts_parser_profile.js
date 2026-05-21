@@ -20,7 +20,7 @@ function spawnPosts(data) {
         postCard.href = "post.html";
         postCard.id = data[i].id;
         postCard.innerHTML = `
-        <div class="post_images">
+        <a class="post_images" href="post.html">
             <div class="image-cover">
                 <div class="image-product" style="background-image: url('${data[i].images[0]}');"></div>
                 <div class="black_shadow"></div>
@@ -33,19 +33,13 @@ function spawnPosts(data) {
                 <div class="image-product" style="background-image: url('${data[i].images[2]}');"></div>
                 <div class="black_shadow"></div>
             </div>
-        </div>
+        </a>
         <h2 class="post_heading">${data[i].item_title}</h2>
         <div class="hashtags">
             ${data[i].hashtags.map(hashtag => `<span class="${hashtag[1]}"><p class="captions">${hashtag[0]}</p></span>`).join('\n            ')}
         </div>
         <p class="post_price">${data[i].price} points</p>
         `;
-
-        postCard.addEventListener("click", () => {
-            localStorage.setItem("clicked_post_id", data[i].id);
-            window.location.href = "post.html";
-        });
-
         items_grid.appendChild(postCard);
     }
 }
