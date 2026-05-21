@@ -96,27 +96,6 @@ h1 {
   margin: 0%;
   font-size: 12pt;
 }
-/* .hashtags {
-  display: inline-block;
-  border-color: darkgoldenrod;
-  border-style: groove;
-  margin: 0%;
-  font-size:smaller;
-} */
-/* p{
-  margin:0%;
-  font-size: small;
-}
-.buy {
-
-  width: 5%;
-}
-.save{
-  width: 3%;
-}
-.share{
-  width: 3%;
-} */
 
 header{
   grid-area: header;
@@ -213,32 +192,6 @@ span{
 .post_container h3 {
   margin: 5px 0;
 }
-
-/*
-.hashtags{
-  margin-bottom: 10px;
-}
-
-span {
-  border-width: 1.5px;
-  border-style: solid;
-  padding: 5px 10px;
-  border-radius: 20px;
-  margin-right: 5px;
-}
-
-span p{
-  display: inline-block;
-}
-
-.yellow_hashtag{
-  border-color: #E1AD03;
-}
-
-.general_hashtag{
-  border-color: black;
-}
-*/
 
 /* Price */
 .post_price {
