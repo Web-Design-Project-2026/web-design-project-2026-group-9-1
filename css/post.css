@@ -40,7 +40,6 @@ main{
   display: grid;
   grid-template-columns: 2fr 2fr;
   gap: 15px;
-  max-width: 500px;
   width: 100%;
 }
 
@@ -156,10 +155,10 @@ span p{
     flex-direction: row;
     gap: 50px;
   }
-  .post_images{
+  .post_container .post_images{
     width: 40%;
   }
-  .post_desc{
+  .post_container .post_desc{
     width: 40%;
   }
 }
